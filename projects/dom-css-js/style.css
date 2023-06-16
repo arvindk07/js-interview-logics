@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  padding: 100px 0px;
+  color: aliceblue;
+  align-items: center;
+  flex-direction: column;
+  background-color: #010a15;
+  justify-content: space-between;
+  font-family: "Fira Sans", sans-serif;
+}
+
+#container {
+  width: 800px;
+  height: 300px;
+  display: grid;
+  background-color: white;
+}
+
+#text {
+  margin: 0;
+  padding: 0;
+  color: #010a15;
+  align-self: center;
+  text-align: center;
+}
+
+#second {
+  height: 66px;
+  width: 800px;
+  display: flex;
+  background-color: blueviolet;
+}
+
+#familydiv {
+  display: flex;
+  margin-left: 20px;
+  align-self: center;
+  flex-direction: column;
+}
+
+#familylabel {
+  padding-bottom: 5px;
+}
+
+#select {
+  height: 25px;
+  width: 100px;
+}
+
+#font-color {
+  display: flex;
+  margin-left: 20px;
+  align-self: center;
+  flex-direction: column;
+}
+
+h2 {
+  font-size: 16px;
+  font-weight: 500;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+#colors {
+  gap: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#black {
+  width: 30px;
+  border: none;
+  height: 30px;
+  border-radius: 50%;
+  background: black;
+}
+#blue {
+  width: 30px;
+  height: 30px;
+  border: none;
+  border-radius: 50%;
+  background: blue;
+}
+#green {
+  width: 30px;
+  height: 30px;
+  border: none;
+  border-radius: 50%;
+  background: green;
+}
+#pink {
+  width: 30px;
+  height: 30px;
+  border: none;
+  border-radius: 50%;
+  background: pink;
+}
+
+.font-size {
+  display: flex;
+  margin-left: 20px;
+  align-self: center;
+  flex-direction: column;
+}
+
+.font-style {
+  display: flex;
+  gap: 8px;
+}
+
+.font-style-type {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.font-style-type button {
+  padding: 2px;
+  cursor: pointer;
+}
+.font-weight {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.font-weight button {
+  padding: 4px 8px;
+  cursor: pointer;
+}
+
+.slidecontainer {
+  width: 100%;
+}
+
+.slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 25px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: 0.2s;
+  transition: opacity 0.2s;
+}
+
+.slider:hover {
+  opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  background: #04aa6d;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  background: #04aa6d;
+  cursor: pointer;
+}
